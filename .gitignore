@@ -1,0 +1,7 @@
+*.log
+*.pyc
+*.pyo
+node_modules
+*.dcm
+.idea
+build/bundle.js
