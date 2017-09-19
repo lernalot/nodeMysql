@@ -15,5 +15,6 @@ var user = {
 module.exports = {
    dealData:function(res) {
       view.viewIndex(res);
+      view.renderHtml();
    }
-}
+};
