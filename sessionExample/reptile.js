@@ -2,7 +2,8 @@
 var express = require('express');
 var cheerio = require('cheerio');//分析网页 https://github.com/cheeriojs/cheerio
 var superagent = require('superagent');//抓取网页内容 http://visionmedia.github.io/superagent/ 链式调用，prototype
-
+//https://cnodejs.org/topic/58ad76db7872ea0864fedfcc
+//https://www.v2ex.com/t/396066#reply2
 var app = express();
 
 app.get('/',function (req,res,next) {
