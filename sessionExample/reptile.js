@@ -5,6 +5,7 @@ var superagent = require('superagent');//抓取网页内容 http://visionmedia.g
 //https://cnodejs.org/topic/58ad76db7872ea0864fedfcc
 //https://www.v2ex.com/t/396066#reply2
 var app = express();
+//http://react-china.org/t/ued-20k/12666
 
 app.get('/',function (req,res,next) {
    superagent.get('http://www.cocos.com/docs/js/3-jumping-into-cocos2d-js/3-1-installation/zh.html')
